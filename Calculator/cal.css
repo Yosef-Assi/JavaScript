@@ -1,0 +1,26 @@
+
+button {
+border: 1px solid black  ;
+border-radius: 50%;
+background-color: #666666;
+color: white;
+margin-left: 2%;
+}
+
+#calculator {
+   
+    width: 115px;
+    background-color: #222;
+
+}
+
+#display {
+    color : white;
+    background-color: #222;
+}
+#equals {
+    width: 100px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,104 @@
+.container {
+    margin: 0px 250px; 
+}
+.header {
+    background-color: silver;
+    width: 50em;
+    display: flex;
+    justify-content: space-between;
+}
+.header input {
+    height:30px;
+    width: 350px;
+    margin-top: 20px;
+    border: 2px solid black;
+    
+}
+.header button {
+    margin-top: 20px;
+    width: 70px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px black;
+    margin-right: 100px;
+}
+.main {
+display:flex;
+
+
+}
+.box1{
+
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+  
+    margin-top: 20px;
+    
+}
+
+.box2 {
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+  
+}
+.box3 {
+    border: 2px solid black;
+    width: 30em;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 20px;
+    
+}
+.box1 ul {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+.span1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.span2 {
+    font-style: italic;
+    font-size: 20px;
+}
+.span3 {
+    font-style: italic;
+}
+.box ul li {
+   
+}
+.p1 {
+    margin-top: -100px;
+    margin-left: 120px;
+    text-align: center;
+    width: 250px;
+    font-size: 20px;
+
+}
+.btn1 {
+    background-color: yellow;
+    box-shadow: 2px 2px black;
+    height: 30px;
+    margin-left: 30px;
+}
+.btn2 {
+    background-color: #93c47d;
+    box-shadow: 2px 2px black;
+    height: 30px;
+    margin-left: 10px;
+    width: 130px;
+}
+.box2 ul {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+.box3 p{
+    font-size: 20px;
+    margin-left: 15px;
+}

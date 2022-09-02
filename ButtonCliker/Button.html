@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function changeText(element){
+            element.innerText="LogOut";
+        }
+        function removeText(element){
+            element.remove();
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button onclick="changeText(this)">Login</button>
+        </div>
+        <div class="main">
+            <div class="box12">
+                <div class="box1">
+                    <div>
+                        <ul>
+                            <li>
+                               <span class="span1">ninja</span> 
+                            </li>
+                            <li>
+                                <span class="span2">noun</span> 
+                            </li>
+                            <li>
+                                Plural  <span class="span3">ninja</span> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p1">    <p>A practitioner skilled in the <a href="#">Japanese</a>  art of <a href="">ninjutsu</a>  </p> 
+                       
+                    </div>
+                    <button class="btn1" onclick="alert('Ninja was liked when clicking a like button')">13 likes</button>
+                    
+                </div>
+                <div class="box2">
+                    <div>
+                        <ul>
+                            <li>
+                               <span class="span1">ninja</span> 
+                            </li>
+                            <li>
+                                <span class="span2">noun</span> 
+                            </li>
+                            <li>
+                                Plural  <span class="span3">ninja</span> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p1">    <p>A <a href="#">progrmmer</a>  who breaks down problems with <a href="">zin</a> -like foucs </p> 
+                       
+                    </div>
+                    <button class="btn1">37 likes</button>
+                </div>
+                
+            </div>
+            
+            <div class="box3">
+                <p>Dojonary is defined by <strong>you</strong> </p>
+                <button class="btn2" onclick="removeText(this)">Add Defintion</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

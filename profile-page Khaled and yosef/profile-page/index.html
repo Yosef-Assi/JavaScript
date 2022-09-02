@@ -35,11 +35,11 @@
                     <img src="images/jane-m.jpg" alt="jane" class="avatar-m">
                 </div>
                 <div class="card-body">
-                    <h1 id="editname">Jane Doe</h1>
+                    <h1 id="name1">Jane Doe</h1>
                     <h3><img src="icons/map-marker.png" alt="pin" class="icon-s"> Seattle</h3>
                     <p>Developer | Engineer | Problem Solver<br>
                     Master of shadows and the Internet!</p>
-                    <p><a href="#"><img src="icons/gear.png" alt="gear" class="icon-s" onclick="clickp()"> edit profile</a></p>
+                    <p><a href="#" onclick="click1()"><img src="icons/gear.png" alt="gear" class="icon-s" > edit profile</a></p>
                 </div>
             </div>
 
@@ -63,28 +63,28 @@
             <!-- connection requests card -->
             <div class="card">
                 <div class="card-header">
-                    <span class="badge">2</span>
+                    <span class="badge" id="c1">2</span>
                     <h3>Connection Requests</h3>
                 </div>
                 <ul class="card-list">
-                    <li class="card-list-item">
+                    <li class="card-list-item" id="remove1">
                         <span>
                             <img src="images/todd-s.jpg" alt="todd" class="avatar-s">
                             Todd E
                         </span>
                         <span>
-                            <img src="icons/accept-circle.png" alt="accept" class="icon">
-                            <img src="icons/close-circle.png" alt="close" class="icon">
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="remove1()">
+                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="remove1()">
                         </span>
                     </li>
-                    <li class="card-list-item">
+                    <li class="card-list-item" id="remove2">
                         <span>
                             <img src="images/phil-s.jpg" alt="phil" class="avatar-s">
                             Phil E
                         </span>
                         <span>
                             <img src="icons/accept-circle.png" alt="accept" class="icon">
-                            <img src="icons/close-circle.png" alt="close" class="icon">
+                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="remove2()">
                         </span>
                     </li>
                 </ul>
@@ -93,25 +93,43 @@
             <!-- your connections card -->
             <div class="card">
                 <div class="card-header">
-                    <span class="badge">500+</span>
+                    <span class="badge" id="c2">500+</span>
                     <h3>Your Connections</h3>
                 </div>
                 <ul class="card-list">
-                    <li class="card-list-item start">
+                    <li class="card-list-item start" id="remove3">
                         <img src="images/adrien-s.jpg" alt="adrien" class="avatar-s">
+                       
                         Adrien D
+                        <span style="margin-left: 30px;"> 
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="add2()">
+                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="remove3()">
+                        </span>
                     </li>
-                    <li class="card-list-item start">
+                    <li class="card-list-item start" id="remove4">
                         <img src="images/anne-s.jpg" alt="anne" class="avatar-s">
                         Anne J
+                        <span style="margin-left: 40px;">
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="add3()">
+                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="remove4()">
+                        </span>
                     </li>
-                    <li class="card-list-item start">
+                    <li class="card-list-item start" id="remove5">
                         <img src="images/alayne-s.jpg" alt="alayne" class="avatar-s">
+                    
                         Alayne T
+                        <span style="margin-left: 30px;">
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="add4()">
+                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="remove5()">
+                        </span>
                     </li>
-                    <li class="card-list-item start">
+                    <li class="card-list-item start" id="remove6">
                         <img src="images/arry-s.jpg" alt="arry" class="avatar-s">
                         Arry Y
+                        <span style="margin-left: 50px;">
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="add5()">
+                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="remove6()">
+                        </span>
                     </li>
                 </ul>
                 <div class="card-footer">
